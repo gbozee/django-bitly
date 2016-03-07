@@ -13,7 +13,8 @@ except ImportError:
 
 from django.db import models
 from django.contrib.sites.models import Site
-from django.contrib.contenttypes.models import ContentType,GenericForeignKey
+from django.contrib.contenttypes.models import ContentType
+from django.contrib.contenttypes.fields import GenericForeignKey
 from django.conf import settings
 try:
     from django.utils import simplejson as json
